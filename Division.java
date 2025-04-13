@@ -1,7 +1,10 @@
 // Division.java
+import java.util.*;
 
 public class Division{
-  try {
+  public static void performDivision() {
+        try {
+            Scanner sc = new Scanner(System.in);
             System.out.print("Enter numerator: ");
             double a = sc.nextDouble();
             System.out.print("Enter denominator: ");
@@ -18,4 +21,5 @@ public class Division{
         } catch (Exception e) {
             System.out.println("Error in division: " + e.getMessage());
         }
+    }
 }
