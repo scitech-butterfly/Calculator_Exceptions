@@ -1,8 +1,10 @@
 // Multiplication.java
+import java.util.*;
 
 public class Multiplication{
-  public static void performMultiplication(Scanner sc) {
+  public static void performMultiplication() {
         try {
+            Scanner sc = new Scanner(System.in);
             System.out.print("Enter first number: ");
             double a = sc.nextDouble();
             System.out.print("Enter second number: ");
