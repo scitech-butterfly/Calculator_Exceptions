@@ -1,4 +1,5 @@
 // Addition.java
+import java.util.*;
 
 public class Addition{
   public static void performAddition(Scanner sc) {
